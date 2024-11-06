@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from .schemas import TextInput, SentimentOutput
+from schemas import TextInput, SentimentOutput
 
 from transformers import pipeline
 
